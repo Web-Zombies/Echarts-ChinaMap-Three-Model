@@ -1,11 +1,10 @@
-# map
+# echarts结合高德API进行中国地图下钻
 
-## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
 ```
 npm run dev
 ```
+[map](https://cdn.jsdelivr.net/gh/Web-Zombies/study/images/map.gif)
