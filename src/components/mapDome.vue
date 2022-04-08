@@ -10,7 +10,7 @@
 <script>
 import axios from 'axios';
 export default {
-  name: 'HelloWorld',
+  name: 'mapDome',
   data () {
     return {
       echarts: null, //echarts 实例
