@@ -66,6 +66,11 @@ export default {
         let adcode = await this.getadCode(params.name); //通过高德api 获取行政区域 adcode 编号
         this.getGeoData(adcode)
       });
+      //随着屏幕变化大小
+      window.onresize = (value) => {
+        //每次改变窗口调用一次resize()
+        myChartChina.resize()
+      }
     },
     // 根据 行政区域 adcode 编号 获取相对应的 地图Json数据 进行地图下钻
     getGeoData (adcode) {
@@ -76,6 +81,7 @@ export default {
         if (geoData.features.length != 0) { //最高下钻到市
           this.echarts.init(document.getElementById('china_map')).dispose(); //销毁实例
           this.getEchInit(adcode, geoData)
+
         }
       })
     },
@@ -122,7 +128,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #china_map {
-  width: 1200px;
+  width: 100%;
   height: 820px;
 }
 </style>
