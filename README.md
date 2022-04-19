@@ -9,6 +9,9 @@ npm install
 npm run dev
 ```
 ![image](https://cdn.jsdelivr.net/gh/Web-Zombies/study/images/map.gif)
+
+
 使用Three.js渲染的模型
 ![image](https://cdn.jsdelivr.net/gh/Web-Zombies/study/images/mx.gif)
+![image](https://cdn.jsdelivr.net/gh/Web-Zombies/study/images/map.gif)
 https://github.com/Web-Zombies/study/blob/main/images/mx.gif
