@@ -13,4 +13,4 @@ npm run dev
 
 使用Three.js渲染的模型
 ![model](https://cdn.jsdelivr.net/gh/Web-Zombies/study/images/mx.gif)
-https://cdn.jsdelivr.net/gh/Web-Zombies/study/images/mx.gif
+https://github.com/Web-Zombies/study/blob/main/images/mx.gif
